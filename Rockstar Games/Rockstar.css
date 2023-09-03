@@ -1,0 +1,622 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    background: #000;
+    font-family: Arial, Helvetica,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    
+
+.userBtn {
+    float: left;
+    margin-left: 65%;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%; 
+    background: #000;
+    border: 0;
+    background-image: url("./Images/User-Icon.svg");
+    background-size: cover;
+    padding-top: 8px;
+    padding-left: 0;
+}
+.Hamlines {
+    background: #fff;
+    border-radius: 1rem;
+    height: 2px;
+    position: relative;
+    margin: 6px;
+    transform-origin: left center;
+    transition: .2s;
+    width: 24px;
+}
+
+.Btnspace {
+    float: left; 
+    width: 45%;
+}
+.HamButton {
+    border: 0;
+    background: transparent;
+    width: 24px;
+}
+
+.Menutabs {
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    padding-left: 15%;
+    padding-top: 10px;
+    background: #000;
+    padding-bottom: 10px;
+}
+
+
+.Mtbs:hover {
+    text-decoration: none;
+    color: #fcaf17;
+}
+
+.Mtbs-2 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Mtbs {
+    text-decoration: none;
+    color: #fff;
+}
+.SearchBox {
+    width: 90%;
+    padding: 8%;
+    height: 50px;
+    background: #282828; 
+    border: 0; 
+    border-radius: 5px;
+    color: #fff;
+}
+.SearchBox::placeholder {
+    color: #fff;
+}
+
+/* __________________________________________________carousel Section_______________________________________________ */
+
+.Section1 {
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin-top: 80px;
+}
+
+
+#ImgCarousel {
+    width: 100%;
+    float: left;
+}
+#TextCarousel {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #000;
+    float: left;
+}
+.Buttons {
+    width: 100%;
+    height: 50px;
+    background: black;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 5%;
+}
+.Text-2 {
+    font-family: "Rockwell", sans-serif;
+    color: #fff;
+    font-size: 2.4em;
+    width: 100%;
+    margin-left: 5%;
+    letter-spacing: var(--letter-spacing-std,-.025em);
+    font-weight: bold;
+    float: left;
+}
+
+.Watch-Btn:hover {
+    color: black;
+    background: #fcaf17;
+    border: 0;
+}
+.Watch-Btn {
+    width: 200px;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Rockwell", sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: var(--letter-spacing-std,-.025em);
+    font-weight: bold;
+    background: #000;
+    border: 1px solid white;
+    border-radius: 6px;
+    float: left;
+    
+}
+
+
+
+.Text-1 {
+    font-family: var(--font-family-std,HelveticaNowText);
+    font-size: calc(var(--root-font-size) * 1px);
+    font-weight: var(--font-weight-std,600);
+    letter-spacing: var(--letter-spacing-std,-.025em);
+    line-height: var(--line-height-std,1.6);
+    color: #fff;
+    padding-bottom: 25px;
+}
+#Scrolls {
+    width: 70px;
+    height: 3px;
+    border: 0;
+    margin-right: 3px;
+}
+
+/* _________________________________________________Section 3_____________________________________________________ */
+
+#Section3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
+    background: #000;
+}
+
+.NewsWire {
+    width: 100%;
+    border-top: 1px solid #282828;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    float: left;
+}
+
+
+
+.Cards {
+    width: 100%;
+    margin-left: 0px;
+    height: 100%;
+    float: left;
+    margin-top: 50px;
+    background: #282828;
+    border: 1px solid #131313;
+    border-radius: 10px;
+}
+
+.Text-Cards {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: "Rockwell" , sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
+.VMBtn {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.Vmfont {
+    font-size: 22px !important;
+    font-weight: 500;
+    font-family: "Rockwell" , sans-serif;
+}
+
+
+.ViewMore {
+    width: auto;
+    height: 36px;
+    margin-top: 10px;
+    background: transparent;
+    border: 0px;
+    padding-top: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.ViewMore:hover
+{
+     color: #000;
+     font-weight: 400;
+     border-radius: 10px;
+     padding: 4px;
+     .Vmfont {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 500;
+     }
+}
+.ViewMore::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #fcaf17;
+    z-index: -1;
+    transition: 0.3s;
+    transform-origin: bottom right;
+    transition: transform 1000ms cubic-bezier(0.86,1,1.07.1);
+    transition-timing-function: cubic-bezier(0.86,1,1.07,1);
+    border-radius: 2px;
+}
+.ViewMore:hover::after
+{
+    transform: scale(1,1);
+    height: 180%;
+    transform-origin: bottom left;
+    border-radius: 10px;
+}
+
+/* __________________________________________________Section 4_____________________________________________ */
+
+.Section4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
+}
+
+
+
+
+
+/* _________________________________________________Footer_________________________________________________ */
+
+
+.Footer {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #282828;
+    margin-top: 80px;
+}
+
+#FooterP1 {
+    position: relative;
+    padding: 5%;
+    height: auto;
+}
+
+.FtrAlinks {
+    font-size: 1.3em;
+    margin-right: 4%;
+    float: left;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s all;
+}
+#External-Link {
+    font-size: 13px; 
+    float: right; 
+    margin-left: 6px; 
+    margin-top: 3px;
+    color: #fff;
+}
+.FtrAlinks:hover {
+    color: #fcaf17;
+    text-decoration: none;
+}
+
+
+.FooterP2 {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+}
+.AlinksP2 {
+    width: 100%;
+    float: left;
+}
+.FtrLogos {
+    width: 100%;
+    float: left;
+}
+.FtrSmAlinks {
+    font-size: 14px;
+    float: left;
+    height: auto;
+    color: #000;
+    margin-right: 1%;
+    font-family: "Rockwell" , sans-serif;
+    text-decoration: none;
+}
+
+
+.Logos {
+    font-size: 20px; 
+    color: white; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 0;
+}
+.Logos:hover {
+    color: #fcaf17;
+}
+.FtrSmAlinks:hover {
+    color: #fcaf17;
+    text-decoration: none;
+}
+
+/* _______________________________________________Bottom______________________________________________ */
+
+.bottom {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+}
+
+.Rockstar {
+    color: #fff;
+    width: 30%;
+    font-size: 16px;
+    float: left;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Cities {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+}
+
+.CtsFtr {
+    width: auto;
+    margin-left: 5%;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* __________________________________________________Media Query______________________________________________ */
+
+
+@media (max-width:300px) {
+    .Text-2 {
+        font-family: "Rockwell", sans-serif;
+        color: #fff;
+        font-size: 1em;
+        width: 100%;
+        letter-spacing: var(--letter-spacing-std,-.025em);
+        font-weight: bold;
+        float: left;
+    }
+}
+
+@media (min-width:1281px) {
+    .NewsWire {
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        margin-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 80px;
+        float: left;
+        background: transparent;
+    }
+}
+
+@media (max-width:768px) {
+    #FooterP1 {
+        width: 90%;
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20px;
+        height: auto;
+    }
+    .Logos {
+        font-size: 20px; 
+        color: white; 
+        float: left;
+        margin-left: 0;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .Logos:hover {
+        color: #fcaf17;
+    }
+    .FtrAlinks {
+        font-size: 1.3em;
+        width: 96%;
+        margin-right: 4%;
+        margin-top: 20px;
+        float: left !important;
+        text-decoration: none;
+        font-weight: 400;
+        color: #fff;
+        transition: 0.3s all;
+    }
+    #External-Link {
+        opacity: 0%;
+    }
+    .FtrAlinks:hover {
+        color: #fcaf17;
+        text-decoration: none;
+    }
+    .FtrSmAlinks {
+        font-size: 12px;
+        width: 100%;
+        float: left;
+        height: auto;
+        color: #282828;
+        margin-right: 2%;
+        font-family: "Rockwell" , sans-serif;
+        text-decoration: none;
+    }
+    .FtrSmAlinks:hover {
+        color: #fcaf17;
+        text-decoration: none;
+    }
+
+    .Rockstar {
+        color: #fff;
+        width: 80%;
+        margin-left: 5%;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+}
+
+
+@media (min-width:1281px )and (max-width:1366px) {
+    #ImgCarousel{
+        width: 70%;
+        float: left;
+    }
+    #TextCarousel{
+        width: 30%;
+        padding-left: 3%;
+        padding-top: 4%;
+        height: 440px;
+        float: left;
+        padding-right: 5%;
+        background: #000;
+    }
+    .Buttons {
+        width: 30%;
+        height: 100%;
+        padding-top: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
+        background: black;
+    }
+    .Text2 {
+        line-height: 1.1;
+        font-size: 2.8rem;
+        letter-spacing: var(--letter-spacing-std,-.025em);
+        font-weight: bold;
+        color: #fff;
+        float: left;
+    }
+    .Watch-Btn {
+        width: 90%;
+        margin-top: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-family: "Rockwell", sans-serif;
+        color: #fff;
+        font-size: 1.5em;
+        letter-spacing: var(--letter-spacing-std,-.025em);
+        font-weight: bold;
+        background: #000;
+        border: 1px solid white;
+        border-radius: 6px;
+        
+    }
+    .Watch-Btn:hover {
+        color: black;
+        background: #fcaf17;
+        border: 0;
+    }
+}
+@media (min-width:1367px) {
+    #ImgCarousel{
+        width: 70%;
+        float: left;
+    }
+    #TextCarousel{
+        width: 30%;
+        padding-left: 3%;
+        padding-top: 4%;
+        height: auto;
+        float: left;
+        padding-right: 5%;
+        background: #000;
+    }
+    .Buttons {
+        width: 30%;
+        height: 100%;
+        padding-top: 10%;
+        padding-left: 32px;
+        padding-right: 32px;
+        background: black;
+    }
+    .Text2 {
+        line-height: 1.1;
+        font-size: 4em;
+        letter-spacing: var(--letter-spacing-std,-.025em);
+        font-weight: bold;
+        color: #fff;
+        float: left;
+    }
+    .Watch-Btn {
+        width: 90%;
+        margin-top: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-family: "Rockwell", sans-serif;
+        color: #fff;
+        font-size: 1.5em;
+        letter-spacing: var(--letter-spacing-std,-.025em);
+        font-weight: bold;
+        background: #000;
+        border: 1px solid white;
+        border-radius: 6px;
+        
+    }
+    .Watch-Btn:hover {
+        color: black;
+        background: #fcaf17;
+        border: 0;
+    }
+    .Text-Cards {
+        width: 95%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.9em;
+        padding-bottom: 5%;
+        font-weight: 600;
+        font-family: "Rockwell" , sans-serif;
+        line-height: 1.1;
+        color: #fff;
+    }
+}
